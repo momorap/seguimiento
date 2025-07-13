@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Plan de Carrera</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      table-layout: fixed;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 8px;
+      vertical-align: top;
+    }
+    th {
+      background-color: #333;
+      color: white;
+    }
+    .aprobada {
+      background-color: #047400;
+      color: rgb(255, 254, 254);
+       margin-bottom: 8px;
+      padding: 4px;
+      border-radius: 4px;
+    }
+    .puede-cursar {
+      background-color: #003165;
+      color: white;
+       margin-bottom: 8px;
+      padding: 4px;
+      border-radius: 4px;
+    }
+    .pendiente {
+      background-color: #711286;
+      color: white;
+       margin-bottom: 8px;
+      padding: 4px;
+      border-radius: 4px;
+    }
+    
+  </style>
+</head>
+<body>
+
+<h1>Plan de Carrera</h1>
+
+<table>
+  <tr>
+    <th>Nivel 1</th>
+    <th>Nivel 2</th>
+    <th>Nivel 3</th>
+    <th>Nivel 4</th>
+    <th>Nivel 5</th>
+  </tr>
+  <tr>
+    <!-- Nivel 1 -->
+    <td>
+      <details class="aprobada">
+        <summary>Algoritmos y Estructura de Datos</summary>
+        <p> Primer parcial: 8
+            Segundo Parcial: 8
+            Promocion: 8
+        </p>
+      </details>
+      <details class="aprobada"> <summary> Arquitectura de Computadores </summary>
+    <p> Primer parcial: 9
+            Segundo Parcial: 9
+            Promocion: 9
+        </p>
+    </details>
+      <details class="aprobada"> <summary> Lógica y Estructuras Discretas </summary>
+    <p> Primer parcial: 8
+            Recuperatorio Segundo Parcial: 10
+            Promocion: 9
+        </p>
+    </details>
+      <details class="aprobada"> <summary> Sistemas y Procesos de Negocio</summary>
+    <p>
+        Promocion: 9
+    </p> </details>
+      <details class="aprobada"> <summary> Física I </summary>
+    <p> Primer parcial: 10
+            Segundo Parcial: 8
+            Promocion: 9
+        </p>
+    </details>
+      <details class="aprobada"> <summary> Álgebra y Geometría Analítica </summary>
+    <p> Primer parcial: 9
+            Recuperatorio Segundo Parcial: 8
+            Promocion: 8
+        </p>
+    </details>
+      <details class="aprobada"> <summary> Análisis Matemático I </summary>
+    <p> Primer parcial: 8
+            Segundo Parcial: 10
+            Promocion: 9
+        </p>
+    </details>
+      <details class="aprobada"> <summary> Inglés Técnico Nivel I </summary>
+    <p> Primer parcial: 9
+            Segundo Parcial: 9
+            Promocion: 9
+        </p>
+    </details>
+    </td>
+
+    <!-- Nivel 2 -->
+    <td>
+      <details class="aprobada"> <summary> Ingeniería y Sociedad </summary>
+    <p> Primer parcial: 9
+            Segundo Parcial: 9
+            Promocion: 9
+        </p>
+    </details>
+      <details class="puede-cursar">  <summary> Sintaxis y Semántica de los Lenguajes </summary>
+    <p> Primer parcial: 10
+            
+        </p>
+    </details>
+      <details class="puede-cursar">  <summary> Paradigmas de Programación </summary>
+    <p> Primer parcial: 9
+            
+        </p>
+    </details>
+      <details class="puede-cursar">  <summary> Sistemas Operativos </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="puede-cursar">  <summary> Análisis de Sistemas de Información </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="puede-cursar">  <summary> Física II </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="aprobada">  <summary> Análisis Matemático II </summary>
+    <p> Primer parcial: 8
+            Segundo Parcial: 8
+            Promocion: 8
+        </p>
+    </details>
+      <details class="aprobada">  <summary> Inglés Técnico Nivel II </summary>
+    <p> Primer parcial: 10
+            Segundo Parcial: 10
+            Promocion: 10
+        </p>
+    </details>
+    </td>
+
+    <!-- Nivel 3 -->
+    <td>
+      <details class="puede-cursar">  <summary> Comunicación de Datos </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="puede-cursar">  <summary> Economía </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="puede-cursar">  <summary> Probabilidad y Estadística </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="pendiente">  <summary> Bases de Datos </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="pendiente">  <summary> Desarrollo de Software </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="pendiente"> <summary>  Análisis Numérico </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="pendiente">  <summary> Diseño de Sistemas de Información </summary>
+    <p> 
+        </p>
+    </details>
+    </td>
+
+    <!-- Nivel 4 -->
+    <td>
+      <details class="puede-cursar">  <summary> Legislación </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="pendiente">  <summary> Ingeniería y Calidad de Software </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="pendiente"> <summary>  Redes de Datos </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="pendiente"> <summary> Investigación Operativa </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="pendiente">  <summary> Simulación </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="pendiente">  <summary> Tecnologías para la Automatización </summary>
+    <p> 
+        </p>
+    </details>
+      <details class="pendiente">  <summary> Administración de Sistemas de Información </summary>
+    <p> 
+        </p>
+    </details>
+    </td>
+
+    <!-- Nivel 5 -->
+    <td>
+      <div class="pendiente"> Sistemas de Gestión</div>
+      <div class="pendiente"> Proyecto Final</div>
+      <div class="pendiente"> Inteligencia Artificial</div>
+      <div class="pendiente"> Ciencia de Datos</div>
+      <div class="pendiente"> Gestión Gerencial</div>
+      <div class="pendiente"> Seguridad en los Sistemas de Información</div>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
